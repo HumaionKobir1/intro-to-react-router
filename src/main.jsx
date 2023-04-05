@@ -51,6 +51,10 @@ const router = createBrowserRouter([
       {
         path: '/contact',
         element: <Contact></Contact>
+      },
+      {
+        path: '*',
+        element: <div>404 Page not found</div>
       }
     ]
   }
