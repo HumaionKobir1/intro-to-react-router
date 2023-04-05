@@ -5,7 +5,6 @@ import './Friends.css'
 
 const Friends = () => {
     const friends = useLoaderData();
-    console.log(friends);
     return (
         <div>
             <h1>These are my friends</h1>
